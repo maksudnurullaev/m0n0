@@ -15,7 +15,8 @@ sub startup {
   my $r = $self->routes;
 
   # Normal route to controller
-  $r->get('/')->to('example#welcome');
+  $r->route('/:controller/:action/*payload')->via('GET','POST')
+    ->to(controller => 'initial', action => 'welcome', payload => undef);
 }
 
 1;

@@ -1,0 +1,4 @@
+% layout 'default';
+%= tag 'h2', 'Welcome!';
+%= tag 'p', 'Simple paragraph!';
+
