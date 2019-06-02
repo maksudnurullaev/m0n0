@@ -2,3 +2,5 @@
 2. DONE! - Add auto-SSL support for nginx 
 3. DONE! - Implement bootstrap4
 4. DONE! - Implement github.com to share code
+5. Implement ML and change language functionality
+
